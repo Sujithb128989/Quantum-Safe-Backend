@@ -6,14 +6,14 @@ build-backend = "setuptools.build_meta"
 name = "pqc-client"
 version = "0.1.0"
 authors = [
-  { name="Sujith", email="author@example.com" },
+  { name="Sujith", email="alphaot07@gmail.com" },
 ]
 description = "A CLI client for the PQC server."
 readme = "README.md"
 requires-python = ">=3.8"
+license = "Apache-2.0"
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
 dependencies = [
