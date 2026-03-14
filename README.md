@@ -65,6 +65,18 @@ graph TD
 
 ---
 
+## 📊 Performance Benchmarks
+
+| Operation | Latency / Throughput |
+|---|---|
+| PQC mTLS Handshake (Dilithium5) | **41ms** |
+| Encrypted Store (AES-256-GCM + SQLite) | **93ms** |
+| AES-256-GCM Throughput | **~2.7 GB/s** |
+
+> Full benchmarking methodology and results are available in the [published paper](https://doi.org/10.5281/zenodo.19024628).
+
+---
+
 ## 🛠️ Installation
 
 The entire system is containerized. Building the image compiles the full custom cryptographic toolchain.
